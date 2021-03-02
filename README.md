@@ -52,4 +52,25 @@ Console.Write(temp);
 Console.Write("celsius");
 ```
 
+# Strings
+\n create a new line
+\t add a tab
+\"something\" used to add quotation 
+Console.WriteLine("c:\\source\\repos"); =======>//c:\source\repos
+
+# Exercise
+```
+Console.WriteLine("Generating invoices for customer \"ABC Corp\" ...\n");
+Console.WriteLine("Invoice:\t1021\t\tComplete");
+Console.WriteLine("Invoice:\t1021\t\tComplete\n");
+Console.WriteLine("Output\tDirectory:");
+```
+```
+Generating invoices for customer "ABC Corp" ...
+
+Invoice:	1021		Complete
+Invoice:	1021		Complete
+
+Output	Directory:
+```
 
