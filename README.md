@@ -36,3 +36,20 @@ Console.WriteLine(isAvailable);
 //Decimal
 
 ```
+
+# Assignments
+
+```
+var userName="Bob";
+var itemInInbox=3;
+var temp=34.4;
+Console.Write("Hello, ");
+Console.Write(userName);
+Console.Write("! You have  ");
+Console.Write(itemInInbox);
+Console.Write(" in your inbox. The temperature is ");
+Console.Write(temp);
+Console.Write("celsius");
+```
+
+
