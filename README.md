@@ -97,3 +97,46 @@ Console.WriteLine(russianMessage);
 Console.WriteLine(@"		c:\Exercise\ACME\ru-RU\data.txt");
 
 ```
+
+# Numbers
+```
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+```
+# Type Casting
+```
+int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+```
+# Order
+Parentheses (whatever is inside the parenthesis is performed first)
+Exponents
+Multiplication and Division (from left to right)
+Addition and Subtraction (from left to right)
+
+```
+****
+int value = 1;
+
+value = value + 1;
+Console.WriteLine("First increment: " + value);
+
+value += 1;
+Console.WriteLine("Second increment: " + value);
+
+value++;
+Console.WriteLine("Third increment: " + value);
+
+value = value - 1;
+Console.WriteLine("First decrement: " + value);
+
+value -= 1;
+Console.WriteLine("Second decrement: " + value);
+
+value--;
+Console.WriteLine("Third decrement: " + value);
+```
+++value=next on1
