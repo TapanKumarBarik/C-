@@ -57,6 +57,10 @@ Console.Write("celsius");
 \t add a tab
 \"something\" used to add quotation 
 Console.WriteLine("c:\\source\\repos"); =======>//c:\source\repos
+```
+Console.WriteLine($"{firstName} {middleName} {lastName}");
+Console.WriteLine(string.Format("{0} {1} {2}", firstName, middleName, lastName));
+```
 
 # Exercise
 ```
